@@ -12,6 +12,5 @@ function sendAPIrequest() {
         console.log(json.data[0].images.fixed_height.url)
         let gifPull = json.data[0].images.fixed_height.url
         gifPlaceholder.setAttribute("src", gifPull)
-        document.body.appendChild(img)
     })
 }
